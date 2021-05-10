@@ -1,0 +1,219 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*header*/
+header{
+    
+    padding: 20px;
+}
+header li a{
+    color: gray;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+header li{
+    text-align: center;
+    margin-right: 20px;
+}
+.fa-circle{
+    color: white;
+    font-size: 0.6em;
+
+}
+header li .active{
+    color: #ff2cc8 !important;
+}
+.active + .fa-circle{
+    color: #ff2cc8;
+
+}
+/*cor logo: #5b1b7b*/
+
+.logo{
+    width: 100%;
+    max-width: 200px;
+
+}
+/*main*/
+main{
+    background-color: #fff0fb;
+}
+.main{
+    padding: 40px;
+}
+h1{
+    font-size: 1.8em;
+    text-align: center;
+    padding-bottom: 25px;
+}
+main p{
+    color: gray;
+}
+.calendario{
+    text-align: center;
+    align-content: center;
+
+}
+.calendario table{
+    margin: 0 auto;
+}
+main button{
+    border-radius: 5px;
+    border-style: solid;
+    margin: 15px;
+}
+#bt-ajuda{
+    width: 70px;
+    height: 70px;
+   border-radius: 50%; 
+   background-color: #ff2cc8;
+   color: white;
+
+}
+.ajuda{
+    align-self: end;
+    align-content: flex-end;
+    text-align: right;
+}
+
+/*footer*/
+footer{
+    clear: both;
+    padding: 20px;
+    align-content: center;
+
+}
+.footer p{
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 40px;    
+    margin: 0px;
+    text-align: center;
+}
+footer .logo-f{
+    align-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+footer li a{
+    margin: 0px;
+    color: rgb(42, 42, 42); 
+}
+h3{
+    font-size: 1.2em;
+}
+.input-newsletter{
+    max-width: 300px;
+    display: inline;
+}
+#bt-newsletter{
+
+    border-radius: 5px;
+    height: 40px;
+    border-style: none;   
+    margin: 0px; 
+}
+/*Contatos*/
+.main-contatos{
+    padding: 40px;
+    align-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.main-contatos p{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.contatos{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+    color: gray;
+}
+.contatos h1 {
+    color: black;
+}
+.contatos-ext{
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.contatos ul{
+    margin: 0 auto;
+    width:fit-content;
+}
+.contatos li{
+    margin: 10px;
+}
+.contatos-ext{
+    border-right: 2px solid #ff2cc8;
+
+}
+/*Depoimentos*/
+.carousel section{
+    max-width: 80%;
+}
+.carousel-item img{
+    padding: 40px;
+    border-radius: 50%;
+}
+.carousel-item h3{
+    padding: 20px;
+    text-align: center;
+}
+/*Mapa das Delegacias*/
+.main-mapa{
+    text-align: center;
+    padding: 40px;
+    align-content: center;
+}
+.main-mapa form {
+    margin: 0 auto; 
+    width:250px;
+    margin-bottom: 20px;
+}
+#map {
+    border-style: solid;
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 900px;
+  /* The width is the width of the web page */
+  max-width: 100%;
+  margin: 0 auto;
+}
+/*Medidas de protecao*/
+.main-medidas{
+    padding: 40px;
+    align-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.main-medidas h3{
+    margin-left: 5%;
+}
+.flex{
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+.flex img {
+    display: block;
+    max-width: 100%;
+}
+.main-medidas p:first-of-type {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
