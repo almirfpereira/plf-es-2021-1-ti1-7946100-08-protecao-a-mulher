@@ -1,18 +1,23 @@
-# Nome do projeto
+# Proteção à Mulher
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+A aplicação a ser desenvolvida tem o objetivo de fornecer maior proteção e acolhimento às mulheres em risco, atendendo às suas necessidades. Também fornecerá informações sobre canais de denúncia e formas de prevenção de agressões para mulheres em geral.
+
+Isso ocorrerá pelo fornecimento de informações sobre as formas de denúncia de agressão contra a mulher, contatos e direcionamentos para organizações de apoio à mulher. Também serão disponibilizados dados sobre a violência contra a mulher no Brasil, informações sobre as leis vigentes e também sobre a importância e a legitimidade da denúncia para conscientizar as usuárias e usuários da aplicação.
+
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+Letícia de Assis Fraga
+Lucas Cerqueira De Andrade
+Maria Eliza Silva Ribeiro De Sá
+Roberto Maximo Mafra
+Yollanda Lima Barbosa
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+Luciana De Nardin
+Rommel Vieira Carneiro
+Simone Alves Nogueira
 
 ## Instruções de utilização
 
