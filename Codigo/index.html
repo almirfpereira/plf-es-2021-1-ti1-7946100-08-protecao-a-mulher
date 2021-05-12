@@ -9,6 +9,7 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo-icon.png">
     <script src="https://kit.fontawesome.com/4051d30423.js" crossorigin="anonymous"></script>
     <!--calendario
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"
@@ -105,7 +106,7 @@
                 </p>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 calendario">
-                <h1>Agenda da mulher</h1>
+                <h1>Agenda de Eventos</h1>
                 <!--calendario bootsnipp-->
                 <table class="table-condensed table-bordered table-striped">
                     <thead>
@@ -176,19 +177,17 @@
                         </tr>
                     </tbody>
                 </table>
-                <button>Envie seu evento</button><br>
+                <button id="bt-calendario" type="button">Envie seu evento</button>
             </div>
         </div>
         <div class="row">
             <div class="col-12 ajuda">
-                <button id="bt-ajuda" type="button">Ajuda!</button>
+                <a href="denuncia.html"><img class="bt-ajuda" src="images/bt-ajuda.png" alt="Ajuda!"></a>
+                
             </div>
-
         </div>
-        
-        
     </main>
-    <footer class="container">
+    <footer class="container-fluid">
         <div class="row">
             <div class="col-6 col-sm-6 col-md-3 col-lg-3 logo-f">
                 <a class="navbar-brand" href="#">
@@ -202,7 +201,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="medidas.html">Medidas de proteção</a>
-
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contatos.html">Contatos</a>
@@ -216,17 +214,16 @@
                 </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
-                <h3>Assine a nossa newsletter</h3>
-                <form class="d-flex">
+                
+                <form>
+                    <label for="newsletter"><h3>Receba nossa newsletter</h3></label><br>
                     <input class="form-control me-2 input-newsletter" id="email" type="email"
-                        placeholder="Insira seu email" aria-label="Search">
-                    <button type="button">Inscrever</button>
-    
+                        placeholder="Insira seu e-mail" aria-label="Search">
+                    <button id="bt-newsletter" type="button">Inscrever</button>
                 </form>
-
             </div>
 
-            <div class="col-12 col-sm-12 col-md-10 col-lg-10 footer">
+            <div class="col-12 footer">
                 <p>
                     Copyright 2021 - Trabalho Interdisciplinar Interfaces Web - <strong>ICEI PUC Minas</strong>
                 </p>
