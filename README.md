@@ -7,17 +7,17 @@ Isso ocorrerá pelo fornecimento de informações sobre as formas de denúncia d
 
 ## Alunos integrantes da equipe
 
-Letícia de Assis Fraga
-Lucas Cerqueira De Andrade
-Maria Eliza Silva Ribeiro De Sá
-Roberto Maximo Mafra
-Yollanda Lima Barbosa
+* Letícia de Assis Fraga
+* Lucas Cerqueira De Andrade
+* Maria Eliza Silva Ribeiro De Sá
+* Roberto Maximo Mafra
+* Yollanda Lima Barbosa
 
 ## Professores responsáveis
 
-Luciana De Nardin
-Rommel Vieira Carneiro
-Simone Alves Nogueira
+* Luciana De Nardin
+* Rommel Vieira Carneiro
+* Simone Alves Nogueira
 
 ## Instruções de utilização
 
