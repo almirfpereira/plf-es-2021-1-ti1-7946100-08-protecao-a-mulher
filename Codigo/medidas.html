@@ -9,6 +9,7 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo-icon.png">
     <script src="https://kit.fontawesome.com/4051d30423.js" crossorigin="anonymous"></script>
     <!--calendario
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"
@@ -84,41 +85,37 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio eligendi ut libero, ab porro quo
                     atque hic illum dolorem provident commodi ratione tempora cumque laboriosam repellat, deleniti
                     adipisci magnam eum harum.</p>
-                <div class="mp">
-                    <h3>Lorem, ipsum dolor:</h3>
 
-                    <section class="flex">
-                        <div>
-                            <img src="https://source.unsplash.com/random/800x800" alt="img1">
-                            <h3>Lorem ipsum</h3>
-                            <p>Dolor sit, amet consectetur adipisicing elit. Eius ex dolorum laborum ullam quisquam
-                                expedita!</p>
-                        </div>
-                        <div>
-                            <img src="https://source.unsplash.com/random/800x800?sig=1" alt="img2">
-                            <h3>Lorem ipsum</h3>
-                            <p>Dolor sit, amet consectetur adipisicing elit. Eius ex dolorum laborum ullam quisquam
-                                expedita!</p>
-                        </div>
-                        <div>
-                            <img src="https://source.unsplash.com/random/800x800?sig=2" alt="img3">
-                            <h3>Lorem ipsum</h3>
-                            <p>Dolor sit, amet consectetur adipisicing elit. Eius ex dolorum laborum ullam quisquam
-                                expedita!</p>
-                        </div>
-                        <div class="img-4"> 
-                            <img src="https://source.unsplash.com/random/800x800?sig=3" alt="img4">
-                            <h3>Lorem ipsum</h3>
-                            <p>Dolor sit, amet consectetur adipisicing elit. Eius ex dolorum laborum ullam quisquam
-                                expedita!</p>
-                        </div>
-
-                    </section> 
-                </div>
+                <h3>Lorem, ipsum dolor:</h3>
             </div>
+                <div class="row row-medidas">
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img src="https://source.unsplash.com/random/800x800" alt="img1">
+                        <h3>Lorem ipsum</h3>
+                        <p>Dolor sit, amet consectetur adipisicing elit. Eius ex dolorum laborum ullam quisquam
+                            expedita!</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img src="https://source.unsplash.com/random/800x800?sig=1" alt="img2">
+                        <h3>Lorem ipsum</h3>
+                        <p>Dolor sit, amet consectetur adipisicing elit. Eius ex dolorum laborum ullam quisquam
+                            expedita!</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img src="https://source.unsplash.com/random/800x800?sig=2" alt="img3">
+                        <h3>Lorem ipsum</h3>
+                        <p>Dolor sit, amet consectetur adipisicing elit. Eius ex dolorum laborum ullam quisquam
+                            expedita!</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img src="https://source.unsplash.com/random/800x800?sig=3" alt="img4">
+                        <h3>Lorem ipsum</h3>
+                        <p>Dolor sit, amet consectetur adipisicing elit. Eius ex dolorum laborum ullam quisquam
+                            expedita!</p>
+                    </div>
+                </div>
         </div>
-
-
     </main>
     <footer class="container">
         <div class="row">
@@ -134,7 +131,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="medidas.html">Medidas de proteção</a>
-
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contatos.html">Contatos</a>
@@ -148,17 +144,18 @@
                 </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
-                <h3>Assine a nossa newsletter</h3>
+
                 <form>
+                    <label for="newsletter">
+                        <h3>Receba nossa newsletter</h3>
+                    </label><br>
                     <input class="form-control me-2 input-newsletter" id="email" type="email"
-                        placeholder="Insira seu email" aria-label="Search">
-                    <button type="button">Inscrever</button>
-
+                        placeholder="Insira seu e-mail" aria-label="Search">
+                    <button id="bt-newsletter" type="button">Inscrever</button>
                 </form>
-
             </div>
 
-            <div class="col-12 col-sm-12 col-md-10 col-lg-10 footer">
+            <div class="col-12 footer">
                 <p>
                     Copyright 2021 - Trabalho Interdisciplinar Interfaces Web - <strong>ICEI PUC Minas</strong>
                 </p>

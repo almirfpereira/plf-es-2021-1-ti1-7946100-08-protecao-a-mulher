@@ -3,7 +3,6 @@ body{
 }
 /*header*/
 header{
-    
     padding: 20px;
 }
 header li a{
@@ -13,7 +12,7 @@ header li a{
 }
 header li{
     text-align: center;
-    margin-right: 20px;
+    margin: 0 10px;
 }
 .fa-circle{
     color: white;
@@ -27,12 +26,14 @@ header li .active{
     color: #ff2cc8;
 
 }
-/*cor logo: #5b1b7b*/
+header ul{
+    margin: 0 auto;
 
+}
 .logo{
     width: 100%;
     max-width: 200px;
-
+    padding-left: 20px;
 }
 /*main*/
 main{
@@ -46,34 +47,13 @@ h1{
     text-align: center;
     padding-bottom: 25px;
 }
+h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 25px;
+}
 main p{
     color: gray;
-}
-.calendario{
-    text-align: center;
-    align-content: center;
-
-}
-.calendario table{
-    margin: 0 auto;
-}
-main button{
-    border-radius: 5px;
-    border-style: solid;
-    margin: 15px;
-}
-#bt-ajuda{
-    width: 70px;
-    height: 70px;
-   border-radius: 50%; 
-   background-color: #ff2cc8;
-   color: white;
-
-}
-.ajuda{
-    align-self: end;
-    align-content: flex-end;
-    text-align: right;
 }
 
 /*footer*/
@@ -82,6 +62,9 @@ footer{
     padding: 20px;
     align-content: center;
 
+}
+.footer{
+    background-color: #fff0fb;
 }
 .footer p{
     align-content: center;
@@ -101,6 +84,12 @@ footer li a{
     margin: 0px;
     color: rgb(42, 42, 42); 
 }
+footer ul{
+    padding: 20px;
+}
+footer form{
+    padding: 25px 0;
+}
 h3{
     font-size: 1.2em;
 }
@@ -114,6 +103,33 @@ h3{
     height: 40px;
     border-style: none;   
     margin: 0px; 
+}
+/*Index*/
+.calendario{
+    text-align: center;
+    align-content: center;
+
+}
+.calendario table{
+    margin: 0 auto;
+}
+#bt-calendario{
+    border-radius: 5px;
+    border-style: none;
+    margin: 25px;
+    padding: 15px;
+    background-color: #ff2cc8 ;
+    color: white;
+}
+.bt-ajuda{
+    width: 130px;
+    max-width: 100%;
+}
+.ajuda{
+    align-self: end;
+    align-content: flex-end;
+    text-align: right;
+    padding: 20px;
 }
 /*Contatos*/
 .main-contatos{
@@ -136,11 +152,14 @@ h3{
 .contatos h1 {
     color: black;
 }
+.contatos > div{
+    margin: 0px;
+}
 .contatos-ext{
     margin: 0 auto;
     justify-content: center;
     margin-bottom: 20px;
-    
+    padding-bottom: 30px;
 }
 .contatos ul{
     margin: 0 auto;
@@ -153,17 +172,47 @@ h3{
     border-right: 2px solid #ff2cc8;
 
 }
+@media (max-width: 768px){
+    .contatos-ext{
+        border-right: none;
+        border-bottom: 2px solid #ff2cc8;
+    }
+}
 /*Depoimentos*/
 .carousel section{
     max-width: 80%;
 }
 .carousel-item img{
-    padding: 40px;
+    padding: 20px;
     border-radius: 50%;
+    max-width: 90%;
+}
+.carousel-item{
+    padding: 30px 10%;
 }
 .carousel-item h3{
     padding: 20px;
     text-align: center;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
 }
 /*Mapa das Delegacias*/
 .main-mapa{
@@ -187,28 +236,23 @@ h3{
 }
 /*Medidas de protecao*/
 .main-medidas{
-    padding: 40px;
+    padding-top: 40px;
     align-content: center;
     max-width: 80%;
     margin: 0 auto;
 }
-.main-medidas h3{
-    margin-left: 5%;
-}
-.flex{
-    display: flex;
-    max-width: 90%;
+.row-medidas{
+    padding: 40px;
+    align-content: center;
+    max-width: 80%;
     margin: 0 auto;
-    padding: 10px;
-    flex-wrap: wrap;
-    text-align: justify;
+    text-align: center;
+}
+.row-medidas h3{
+    margin: 20px;
 }
 
-.flex > div{
-    flex: 1 1 200px;
-    margin: 10px;
-}
-.flex img {
+.row-medidas img {
     display: block;
     max-width: 100%;
 }
@@ -217,3 +261,11 @@ h3{
     margin: 0 auto;
     margin-bottom: 30px;
 }
+/*Denuncia*/
+.main-denuncia div{
+    padding: 60px;
+}
+.chat{
+    max-width: 100%;
+}
+
