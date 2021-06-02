@@ -342,8 +342,7 @@ h3{
   
   .event-date {
     border-color: #ff2cc8;
-    background: #ff2cc8;
-    color: #fff;
+    background: #fff0fb;
     width: 10px;
     height: 10px;
     border-radius: 100%;
@@ -368,7 +367,9 @@ h3{
     background: transparent;
     border: none; }
   
-
+.link-calendar{
+  color: white;
+}
 #bt-calendario{
     border-radius: 5px;
     border-style: none;
@@ -524,4 +525,3 @@ h3{
 .chat{
     max-width: 100%;
 }
-
