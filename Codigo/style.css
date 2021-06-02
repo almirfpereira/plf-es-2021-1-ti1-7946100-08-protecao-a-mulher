@@ -235,6 +235,13 @@ h3{
   margin: 0 auto;
 }
 /*Medidas de protecao*/
+.medidas-h3 {
+    margin-top: 5rem;
+}
+.medidas-image {
+    height: 12rem;
+}
+
 .main-medidas{
     padding-top: 40px;
     align-content: center;
