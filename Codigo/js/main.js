@@ -328,16 +328,52 @@
                 "day": 1,
             },
             {
-                "occasion": " Dia do Orgulho LGBT+ ",
+                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.google.com/search?q=orgulho+lgbt\" > Dia do Orgulho LGBT+ </a> ",
                 "year": 2021,
                 "month": 6,
                 "day": 28,
             },
             {
-                "occasion": " Dia do Orgulho LGBT+ ",
+                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.google.com/search?q=orgulho+lgbt\" > Dia do Orgulho LGBT+ </a> ",
                 "year": 2022,
                 "month": 6,
                 "day": 28,
+            },
+            {
+                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html\" > Dia da sanção da Lei Maria da Penha </a> ",
+                "year": 2020,
+                "month": 8,
+                "day": 7,
+            },
+            {
+                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html\" > Dia da sanção da Lei Maria da Penha </a> ",
+                "year": 2021,
+                "month": 8,
+                "day": 7,
+            },
+            {
+                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html\" > Dia da sanção da Lei Maria da Penha </a> ",
+                "year": 2022,
+                "month": 8,
+                "day": 7,
+            },
+            {
+                "occasion": " Dia Internacional da Mulher Indígena ",
+                "year": 2020,
+                "month": 9,
+                "day": 5,
+            },
+            {
+                "occasion": " Dia Internacional da Mulher Indígena ",
+                "year": 2021,
+                "month": 9,
+                "day": 5,
+            },
+            {
+                "occasion": " Dia Internacional da Mulher Indígena ",
+                "year": 2022,
+                "month": 9,
+                "day": 5,
             },
             {
                 "occasion": " Dia Internacional pela Eliminação da Violência contra a Mulher ",
@@ -350,6 +386,42 @@
                 "year": 2022,
                 "month": 11,
                 "day": 25,
+            },
+            {
+                "occasion": " Dia Nacional de Mobilização dos Homens pelo Fim da Violência contra as Mulheres ",
+                "year": 2020,
+                "month": 12,
+                "day": 6,
+            },
+            {
+                "occasion": " Dia Nacional de Mobilização dos Homens pelo Fim da Violência contra as Mulheres ",
+                "year": 2021,
+                "month": 12,
+                "day": 6,
+            },
+            {
+                "occasion": " Dia Nacional de Mobilização dos Homens pelo Fim da Violência contra as Mulheres ",
+                "year": 2022,
+                "month": 12,
+                "day": 6,
+            },
+            {
+                "occasion": " Dia Internacional dos Direitos Humanos ",
+                "year": 2020,
+                "month": 12,
+                "day": 10,
+            },
+            {
+                "occasion": " Dia Internacional dos Direitos Humanos ",
+                "year": 2021,
+                "month": 12,
+                "day": 10,
+            },
+            {
+                "occasion": " Dia Internacional dos Direitos Humanos ",
+                "year": 2022,
+                "month": 12,
+                "day": 10,
             }
         ]
     };
