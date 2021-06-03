@@ -40,7 +40,7 @@ main{
     background-color: #fff0fb;
 }
 .main{
-    padding: 40px;
+    padding: 20px;
 }
 h1{
     font-size: 1.8em;
@@ -105,7 +105,10 @@ h3{
     margin: 0px; 
 }
 /*Index*/
-
+.calendario{
+  margin: 0;
+  padding: 0;
+}
 /*  Events display */
 .events-container {
     overflow-y: scroll;
@@ -164,7 +167,7 @@ h3{
     background: #fff;
     font: 13px Helvetica, Arial, san-serif;
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
     float: right; }
     @media (max-width: 991.98px) {
       .calendar-container {
@@ -245,46 +248,30 @@ h3{
       -webkit-box-shadow: none;
       box-shadow: none;
       outline: none; }
-  
-  #cancel-button {
-    background: #000; }
-  
-  #add-button {
-    display: block;
-    position: absolute;
-    right: 20px;
-    bottom: 20px; }
-  
-  #add-button:hover, #ok-button:hover, #cancel-button:hover {
-    -webkit-transform: scale(1.03);
-    -ms-transform: scale(1.03);
-    transform: scale(1.03); }
-  
-  #add-button:active, #ok-button:active, #cancel-button:active {
-    -webkit-transform: translateY(3px) scale(0.97);
-    -ms-transform: translateY(3px) scale(0.97);
-    transform: translateY(3px) scale(0.97); }
-  
+      
   /* Days/months tables */
   .days-table, .dates-table, .months-table {
     border-collapse: separate;
-    text-align: center; }
+    text-align: center;
+    max-width: 100%;}
   
   .day {
     height: 26px;
     width: 26px;
-    padding: 0 10px;
+    max-width: 100%;
+    padding: 0 5px;
     line-height: 26px;
     border: 2px solid transparent;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
     color: #000; }
   
   .month {
     cursor: default;
     height: 26px;
     width: 26px;
-    padding: 0 2px;
+    max-width: 100%;
+    padding: 0 1px;
     padding-top: 10px;
     line-height: 26px;
     text-transform: uppercase;
@@ -314,7 +301,7 @@ h3{
     height: 26px;
     width: 26px;
     font-size: 15px;
-    padding: 10px;
+    padding: 3px;
     line-height: 26px;
     text-align: center;
     border-radius: 50%;
