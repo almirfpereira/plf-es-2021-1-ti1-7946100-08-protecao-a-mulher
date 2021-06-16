@@ -504,6 +504,19 @@ h3 {
   font-size: 55px;
   color: black;
 }
+.depoimentos{
+  text-align: center;
+}
+
+#carouselExampleControls img {
+  object-fit: cover;
+  width:230px;
+  height:230px;
+}
+.div-img {
+  text-align: center;
+}
+
 /*Mapa das Delegacias*/
 .main-mapa {
   text-align: center;

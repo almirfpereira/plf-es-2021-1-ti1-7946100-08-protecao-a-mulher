@@ -220,25 +220,12 @@
     // Given data for events in JSON format
     var event_data = {
         "events": [
+            //2020
             {
                 "occasion": " Dia da Conquista do Voto Feminino no Brasil ",
-                "year": 2021,
+                "year": 2020,
                 "month": 2,
                 "day": 24,
-
-            },
-            {
-                "occasion": " Dia da Conquista do Voto Feminino no Brasil ",
-                "year": 2022,
-                "month": 2,
-                "day": 24,
-
-            },
-            {
-                "occasion": " Dia Internacional da Mulher ",
-                "year": 2021,
-                "month": 3,
-                "day": 8,
 
             },
             {
@@ -249,43 +236,107 @@
 
             },
             {
-                "occasion": " Dia Internacional da Mulher ",
-                "year": 2022,
+                "occasion": " Dia Marielle Franco de luta contra o genocídio da mulher negra ",
+                "year": 2020,
                 "month": 3,
-                "day": 8,
-
-            },
-            {
-                "occasion": " Dia Internacional da Mulher ",
-                "year": 2023,
-                "month": 3,
-                "day": 8,
-
+                "day": 14,
             },
             {
                 "occasion": " Dia Nacional da Mulher ",
-                "year": 2021,
-                "month": 4,
-                "day": 30,
-
-            },
-            {
-                "occasion": " Dia Nacional da Mulher ",
-                "year": 2022,
+                "year": 2020,
                 "month": 4,
                 "day": 30,
 
             },
             {
                 "occasion": " Dia Internacional de Ação pela Saúde da Mulher ",
-                "year": 2021,
+                "year": 2020,
                 "month": 5,
                 "day": 28,
 
             },
             {
+                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.google.com/search?q=orgulho+lgbt\" > Dia do Orgulho LGBT+ </a> ",
+                "year": 2020,
+                "month": 6,
+                "day": 28,
+            },
+            {
+                "occasion": " Dia da Mulher Negra da América Latina e do Caribe ",
+                "year": 2020,
+                "month": 7,
+                "day": 25,
+
+            },
+            {
+                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html\" > Dia da sanção da Lei Maria da Penha </a> ",
+                "year": 2020,
+                "month": 8,
+                "day": 7,
+            },
+            {
+                "occasion": " Dia Internacional da Mulher Indígena ",
+                "year": 2020,
+                "month": 9,
+                "day": 5,
+            },
+            {
+                "occasion": " Dia Nacional de Luta contra a Violência à Mulher ",
+                "year": 2020,
+                "month": 10,
+                "day": 5,
+            },
+            
+            {
+                "occasion": " Dia Internacional pela Eliminação da Violência contra a Mulher ",
+                "year": 2020,
+                "month": 11,
+                "day": 25,
+            },
+            {
+                "occasion": " Dia Nacional de Mobilização dos Homens pelo Fim da Violência contra as Mulheres ",
+                "year": 2020,
+                "month": 12,
+                "day": 6,
+            },
+            {
+                "occasion": " Dia Internacional dos Direitos Humanos ",
+                "year": 2020,
+                "month": 12,
+                "day": 10,
+            },
+
+            //2021
+            {
+                "occasion": " Dia da Conquista do Voto Feminino no Brasil ",
+                "year": 2021,
+                "month": 2,
+                "day": 24,
+
+            },
+            {
+                "occasion": " Dia Internacional da Mulher ",
+                "year": 2021,
+                "month": 3,
+                "day": 8,
+
+            },
+            {
+                "occasion": " Dia Marielle Franco de luta contra o genocídio da mulher negra ",
+                "year": 2021,
+                "month": 3,
+                "day": 14,
+            },
+            {
+                "occasion": " Dia Nacional da Mulher ",
+                "year": 2021,
+                "month": 4,
+                "day": 30,
+
+            },
+            {
                 "occasion": " Dia Internacional de Ação pela Saúde da Mulher ",
-                "year": 2022,
+                "year": 2021,
                 "month": 5,
                 "day": 28,
 
@@ -304,18 +355,6 @@
                 "day": 5,
             },
             {
-                "occasion": " Dia da Conquista do Voto Feminino no Brasil ",
-                "year": 2021,
-                "month": 2,
-                "day": 24,
-            },
-            {
-                "occasion": " Dia Marielle Franco de luta contra o genocídio da mulher negra ",
-                "year": 2021,
-                "month": 3,
-                "day": 14,
-            },
-            {
                 "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://facesbr.com/webinar-ciclo-da-violencia/\" > Webinar – Ciclo da Violência </a> ",
                 "year": 2021,
                 "month": 5,
@@ -328,50 +367,26 @@
                 "day": 1,
             },
             {
+                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.youtube.com/watch?v=rMigSHKnY-k\" > Inauguração: Performance \"Violência Contra a Mulher\" </a> ",
+                "year": 2021,
+                "month": 6,
+                "day": 10,
+            },
+            {
                 "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.google.com/search?q=orgulho+lgbt\" > Dia do Orgulho LGBT+ </a> ",
                 "year": 2021,
                 "month": 6,
                 "day": 28,
             },
             {
-                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.google.com/search?q=orgulho+lgbt\" > Dia do Orgulho LGBT+ </a> ",
-                "year": 2022,
-                "month": 6,
-                "day": 28,
-            },
-            {
-                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html\" > Dia da sanção da Lei Maria da Penha </a> ",
-                "year": 2020,
-                "month": 8,
-                "day": 7,
-            },
-            {
                 "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html\" > Dia da sanção da Lei Maria da Penha </a> ",
                 "year": 2021,
                 "month": 8,
                 "day": 7,
             },
             {
-                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html\" > Dia da sanção da Lei Maria da Penha </a> ",
-                "year": 2022,
-                "month": 8,
-                "day": 7,
-            },
-            {
-                "occasion": " Dia Internacional da Mulher Indígena ",
-                "year": 2020,
-                "month": 9,
-                "day": 5,
-            },
-            {
                 "occasion": " Dia Internacional da Mulher Indígena ",
                 "year": 2021,
-                "month": 9,
-                "day": 5,
-            },
-            {
-                "occasion": " Dia Internacional da Mulher Indígena ",
-                "year": 2022,
                 "month": 9,
                 "day": 5,
             },
@@ -382,6 +397,86 @@
                 "day": 25,
             },
             {
+                "occasion": " Dia Nacional de Mobilização dos Homens pelo Fim da Violência contra as Mulheres ",
+                "year": 2021,
+                "month": 12,
+                "day": 6,
+            },
+            {
+                "occasion": " Dia Internacional dos Direitos Humanos ",
+                "year": 2021,
+                "month": 12,
+                "day": 10,
+            },
+
+            //2022
+            {
+                "occasion": " Dia da Conquista do Voto Feminino no Brasil ",
+                "year": 2022,
+                "month": 2,
+                "day": 24,
+
+            },
+            {
+                "occasion": " Dia Internacional da Mulher ",
+                "year": 2022,
+                "month": 3,
+                "day": 8,
+
+            },
+            {
+                "occasion": " Dia Marielle Franco de luta contra o genocídio da mulher negra ",
+                "year": 2022,
+                "month": 3,
+                "day": 14,
+            },
+            {
+                "occasion": " Dia Nacional da Mulher ",
+                "year": 2022,
+                "month": 4,
+                "day": 30,
+
+            },
+            {
+                "occasion": " Dia Internacional de Ação pela Saúde da Mulher ",
+                "year": 2022,
+                "month": 5,
+                "day": 28,
+
+            },
+            {
+                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.google.com/search?q=orgulho+lgbt\" > Dia do Orgulho LGBT+ </a> ",
+                "year": 2022,
+                "month": 6,
+                "day": 28,
+            },
+            {
+                "occasion": " Dia da Mulher Negra da América Latina e do Caribe ",
+                "year": 2022,
+                "month": 7,
+                "day": 25,
+
+            },
+            {
+                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html\" > Dia da sanção da Lei Maria da Penha </a> ",
+                "year": 2022,
+                "month": 8,
+                "day": 7,
+            },
+            {
+                "occasion": " Dia Internacional da Mulher Indígena ",
+                "year": 2022,
+                "month": 9,
+                "day": 5,
+            },
+            {
+                "occasion": " Dia Nacional de Luta contra a Violência à Mulher ",
+                "year": 2022,
+                "month": 10,
+                "day": 5,
+            },
+            
+            {
                 "occasion": " Dia Internacional pela Eliminação da Violência contra a Mulher ",
                 "year": 2022,
                 "month": 11,
@@ -389,40 +484,103 @@
             },
             {
                 "occasion": " Dia Nacional de Mobilização dos Homens pelo Fim da Violência contra as Mulheres ",
-                "year": 2020,
-                "month": 12,
-                "day": 6,
-            },
-            {
-                "occasion": " Dia Nacional de Mobilização dos Homens pelo Fim da Violência contra as Mulheres ",
-                "year": 2021,
-                "month": 12,
-                "day": 6,
-            },
-            {
-                "occasion": " Dia Nacional de Mobilização dos Homens pelo Fim da Violência contra as Mulheres ",
                 "year": 2022,
                 "month": 12,
                 "day": 6,
             },
             {
                 "occasion": " Dia Internacional dos Direitos Humanos ",
-                "year": 2020,
-                "month": 12,
-                "day": 10,
-            },
-            {
-                "occasion": " Dia Internacional dos Direitos Humanos ",
-                "year": 2021,
-                "month": 12,
-                "day": 10,
-            },
-            {
-                "occasion": " Dia Internacional dos Direitos Humanos ",
                 "year": 2022,
+                "month": 12,
+                "day": 10,
+            },
+
+            //2023
+            {
+                "occasion": " Dia da Conquista do Voto Feminino no Brasil ",
+                "year": 2023,
+                "month": 2,
+                "day": 24,
+
+            },
+            {
+                "occasion": " Dia Internacional da Mulher ",
+                "year": 2023,
+                "month": 3,
+                "day": 8,
+
+            },
+            {
+                "occasion": " Dia Marielle Franco de luta contra o genocídio da mulher negra ",
+                "year": 2023,
+                "month": 3,
+                "day": 14,
+            },
+            {
+                "occasion": " Dia Nacional da Mulher ",
+                "year": 2023,
+                "month": 4,
+                "day": 30,
+
+            },
+            {
+                "occasion": " Dia Internacional de Ação pela Saúde da Mulher ",
+                "year": 2023,
+                "month": 5,
+                "day": 28,
+
+            },
+            {
+                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.google.com/search?q=orgulho+lgbt\" > Dia do Orgulho LGBT+ </a> ",
+                "year": 2023,
+                "month": 6,
+                "day": 28,
+            },
+            {
+                "occasion": " Dia da Mulher Negra da América Latina e do Caribe ",
+                "year": 2023,
+                "month": 7,
+                "day": 25,
+
+            },
+            {
+                "occasion": " <a target=\"_blank\" class=\"link-calendar\" href=\"https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html\" > Dia da sanção da Lei Maria da Penha </a> ",
+                "year": 2023,
+                "month": 8,
+                "day": 7,
+            },
+            {
+                "occasion": " Dia Internacional da Mulher Indígena ",
+                "year": 2023,
+                "month": 9,
+                "day": 5,
+            },
+            {
+                "occasion": " Dia Nacional de Luta contra a Violência à Mulher ",
+                "year": 2023,
+                "month": 10,
+                "day": 5,
+            },
+            
+            {
+                "occasion": " Dia Internacional pela Eliminação da Violência contra a Mulher ",
+                "year": 2023,
+                "month": 11,
+                "day": 25,
+            },
+            {
+                "occasion": " Dia Nacional de Mobilização dos Homens pelo Fim da Violência contra as Mulheres ",
+                "year": 2023,
+                "month": 12,
+                "day": 6,
+            },
+            {
+                "occasion": " Dia Internacional dos Direitos Humanos ",
+                "year": 2023,
                 "month": 12,
                 "day": 10,
             }
+            
         ]
     };
 
