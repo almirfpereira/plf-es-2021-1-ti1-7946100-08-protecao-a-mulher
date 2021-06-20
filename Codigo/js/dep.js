@@ -124,6 +124,35 @@ var deps_data = {
             existe saída."`,
             "imagem":'<img src="https://conteudo.imguol.com.br/c/entretenimento/b6/2020/06/19/me-livrei-do-meu-agressor-elas-contam-como-deram-fim-a-violencia-domestica-1592599360827_v2_450x450.jpg.webp" alt="img1">',
             "fonte": '<a target="blank" href="https://www.uol.com.br/universa/noticias/redacao/2020/06/22/cinco-mulheres-contam-como-se-livraram-do-agressor-ha-vida-apos-violencia.htm">uol.com.br</a>'
+        },
+        {
+            "nome":"Nina, 48 anos",
+            "depoimento":`"Aos poucos, ele foi me afastando de amigos e familiares. Essa é a primeira coisa
+            que esse tipo de pessoa faz.
+            As mulheres devem se preocupar sempre em não depender financeiramente do
+            companheiro e pensar muito antes de ter um filho. E têm que se abrir: pra
+            família, colegas, para quem for, porque ela é a vítima. E observar os sinais, as
+            histórias deles, se tem algum vestígio de ter sido assim com outra."`,
+            "imagem":' <img src="https://conteudo.imguol.com.br/c/entretenimento/73/2020/06/18/cinco-mulheres-contam-como-se-livraram-do-agressor-ha-vida-apos-violencia-1592489586862_v2_450x450.jpg.webp" alt="Nina">',
+            "fonte": '<a target="blank" href="https://www.uol.com.br/universa/noticias/redacao/2020/06/22/cinco-mulheres-contam-como-se-livraram-do-agressor-ha-vida-apos-violencia.htm">uol.com.br</a>'
+        },
+        {
+            "nome":"Maria, 40 anos",
+            "depoimento":`"Até então, a gente pensa que a pessoa vai mudar. O agressor faz aquele show,
+            pede desculpa, mas não adianta. Hoje estou focada no trabalho, e ainda não
+            consigo ter uma relação com alguém, por falta de confiança. Mas estou longe
+            dele. Eu sei que muitas mulheres não têm para onde ir, como eu tive. Mas, se
+            puderem, aconselho procurar uma casa de apoio e sair logo disso."`,
+            "imagem":'<img src="https://conteudo.imguol.com.br/c/entretenimento/64/2020/06/18/cinco-mulheres-contam-como-se-livraram-do-agressor-ha-vida-apos-violencia-1592489282455_v2_450x450.jpg.webp" alt="Maria">',
+            "fonte": '<a target="blank" href="https://www.uol.com.br/universa/noticias/redacao/2020/06/22/cinco-mulheres-contam-como-se-livraram-do-agressor-ha-vida-apos-violencia.htm">uol.com.br</a>'
+        },
+        {
+            "nome":"Layse, 26 anos",
+            "depoimento":`"Se eu não tivesse denunciado, hoje eu estaria louca, longe do meu filho e
+            provavelmente sem poder vê-lo. Porque ele [o ex] é uma pessoa ruim. Eu só
+            imagino, eu estaria com minha filha, sofrendo a ausência do meu filho. Ou morta."`,
+            "imagem":'<img src="https://s2.glbimg.com/0noJw9iAPqznDwY3P6HzOHoIMjQ=/0x0:1600x1045/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/E/4/P5TcZERju932DNBILt5A/praca-das-mulheres.jpg" alt="Layse">',
+            "fonte": '<a target="blank" href="https://g1.globo.com/pb/paraiba/noticia/apanhei-gravida-relata-sobrevivente-de-violencia-domestica-na-paraiba.ghtml">g1.globo.com</a>'
         }
     ]
 }
