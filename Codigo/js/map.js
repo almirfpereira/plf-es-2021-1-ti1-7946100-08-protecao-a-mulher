@@ -6,7 +6,7 @@ function initMap() {
     zoom: 12,
   });
   var marker = [], i;
-  var infowindow = []
+  var infoWindow = []
 
   for (i = 0; i < markers.locs.length; i++) {
     marker[i] = new google.maps.Marker({
@@ -14,9 +14,20 @@ function initMap() {
       map: map,
       id: i
     });
-    infowindow[i] = new google.maps.InfoWindow({
+    infoWindow[i] = new google.maps.InfoWindow({
       content: markers.locs[i].nome + markers.locs[i].telefone1
     });
+
+    marker[i].addListener('click', (function(marker,i){
+        return function(){
+            infoWindow[i] = new google.maps.InfoWindow({
+                content: markers.locs[i].nome + " - " + markers.locs[i].telefone1
+              });
+            infoWindow[i].open(map, marker);
+            map.setCenter(marker.getPosition());
+            map.setZoom(10);
+        }
+    })(marker[i],i));
 
   }
 
