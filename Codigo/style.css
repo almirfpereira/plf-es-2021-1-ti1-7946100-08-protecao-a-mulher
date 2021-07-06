@@ -528,15 +528,6 @@ h3 {
   width: 250px;
   margin-bottom: 20px;
 }
-#map {
-  border-style: solid;
-  height: 400px;
-  /* The height is 400 pixels */
-  width: 900px;
-  /* The width is the width of the web page */
-  max-width: 100%;
-  margin: 0 auto;
-}
 /*Medidas de protecao*/
 .link-medidas {
   display: flex;
