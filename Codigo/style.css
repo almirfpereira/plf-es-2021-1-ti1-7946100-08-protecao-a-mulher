@@ -337,16 +337,22 @@ h3 {
 }
 
 /*  Dates table */
+.table-row {
+  height: 26px !important;
+  width: 190px;
+  line-height: 26px;
+}
 .table-date {
   cursor: default;
   color: #2b2b2b;
-  height: 26px;
-  width: 26px;
+  height: 26px !important;
+  width: 26px !important;
   font-size: 15px;
   padding: 3px;
+  margin: 10px !important;
   line-height: 26px;
   text-align: center;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   border: 1px solid transparent;
   -webkit-transition: all 250ms;
   -o-transition: all 250ms;
@@ -372,11 +378,10 @@ h3 {
 }
 
 .event-date {
+  padding: 0 auto;
   border-color: #ff2cc8;
   background: #fff0fb;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
+  /*border-radius: 100%;*/
 }
 .event-date:after {
   position: absolute;
