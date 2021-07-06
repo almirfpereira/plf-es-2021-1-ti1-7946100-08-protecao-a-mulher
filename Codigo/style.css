@@ -528,6 +528,10 @@ h3 {
   width: 250px;
   margin-bottom: 20px;
 }
+
+#map{
+  height: 500px;
+}
 /*Medidas de protecao*/
 .link-medidas {
   display: flex;
